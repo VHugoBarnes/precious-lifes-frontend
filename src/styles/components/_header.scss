@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    margin: 1rem;
+    margin-left: 1.4rem;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo {
+    color: $black;
+    width: min-intrinsic;       /* old Chrome, Safari */
+    width: -webkit-min-content; /* less old Chrome, Safari */
+    width: -moz-min-content;    /* current Firefox */
+    width: min-content;         /* current Chrome, Safari; not IE or Edge */
+    font-size: 2.3rem;
+}
+
+.menu {
+    margin: 1rem 0;
+}
+
+.menu > ul {
+    padding: 0;
+}
+
+.menu > ul > li {
+    list-style: none;
+    display: inline-block;
+}
+
+.link {
+    color: $solid-blue;
+    font-size: 1.6rem;
+    margin: 1rem;
+}

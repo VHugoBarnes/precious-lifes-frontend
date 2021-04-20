@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Amatic SC";
+    src: local("AmaticSC-Regular"), 
+        url(~@/fonts/Amatic_SC/AmaticSC-Regular.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: "Amatic SC Bold";
+    src: local("AmaticSC-Bold"), 
+        url(~@/fonts/Amatic_SC/AmaticSC-Bold.ttf)format("truetype");
+}
+
+* {
+    font-family: "Amatic SC Bold", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
